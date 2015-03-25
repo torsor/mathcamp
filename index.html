@@ -70,28 +70,22 @@ stylesheets:
       {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
       <div id="{{id}}" class="section p-{{ id }}">
         <div class="row bg-{{ topbg }}">
-          <div class="col-md-12" style="height:100px;"></div>
+          <div class="col-md-12 spacer"></div>
         </div>
         <div class="row bg-{{ nodebg }}">
           <div class="col-md-10 col-md-offset-1">
-            <div class="{{ node.style }}" style="margin-left: 20px;
-            margin-right: 20px;">
+            <div class="{{ node.style }} content-node">
               {{ node.content }}
             </div>
           </div>
         </div>
         <div class="row bg-{{ nodebg }}">
-          <div class="col-md-12" style="height:40px;"></div>
+          <div class="col-md-12 bottom-spacer"></div>
         </div>
       </div>
     {% endfor %}
 
 
-    <div class="row bg-turquoise">
-      <div class="col-md-12" style="text-align:center; padding-top: 20px;
-      padding-bottom: 20px;">designed by Danny Krashen under the MIT
-      license</div>
-    </div>
   </div>
   </div><!--/main-->
 
