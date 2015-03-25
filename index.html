@@ -1,0 +1,102 @@
+---
+
+stylesheets:
+  - filename: "bootstrap.css"
+  - filename: "bootstrap-dannymod.css"
+  - filename: "danny.css"
+
+#nodebg: blue
+
+---
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="{{ site.keywords }}">
+	<meta name="description" content="{{ site.description }}">
+
+  <title>{{ site.title }}</title>
+
+  {% for s in page.stylesheets %}
+    <link href='/style/{{ s.filename }}' rel='stylesheet' type='text/css'>
+  {% endfor %}
+
+  {% if site.favicon %}
+    <link rel="shortcut icon" href="{{ site.favicon }}"
+    type="image/x-icon">
+  {% endif %}
+	{% if site.touch_icon %}
+    <link rel="apple-touch-icon" href="{{ site.touch_icon }}">
+  {% endif %}
+</head>
+
+<body>
+  <div id="main" class="bg-offwhite">
+
+  <nav class="navbar navbar-fixed-top">
+    <div class="container-fluid fixed danny-nav-container bg-dark">
+    <ul class="nav nav-pills">
+    {% for node in site.categories.node reversed %}
+      {% if page.nodebg %}
+        {% capture nodebg %}{{ page.nodebg }}{% endcapture %}
+      {% else %}
+        {% capture nodebg %}{{ node.bg }}{% endcapture %}
+      {% endif %}
+      {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+      <li class="p-{{id}}{% if node.active %} active {% endif %}" 
+      ><a href="#{{id}}" class="bd-{{ nodebg }}"
+      >{{node.title}}</a></li>
+    {% endfor %}
+    </ul>
+    </div>
+  </nav>
+
+
+    {% for node in site.categories.node reversed %}
+      {% if page.nodebg %}
+        {% capture nodebg %}{{ page.nodebg }}{% endcapture %}
+      {% else %}
+        {% capture nodebg %}{{ node.bg }}{% endcapture %}
+      {% endif %}
+
+      {% if page.nodebg %}
+        {% capture nodebg %}{{ page.topbg }}{% endcapture %}
+      {% else %}
+        {% capture topbg %}{{ node.bg }}{% endcapture %}
+      {% endif %}
+      
+      {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+      <div id="{{id}}" class="section p-{{ id }}">
+        <div class="row bg-{{ topbg }}">
+          <div class="col-md-12" style="height:100px;"></div>
+        </div>
+        <div class="row bg-{{ nodebg }}">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="{{ node.style }}" style="margin-left: 20px;
+            margin-right: 20px;">
+              {{ node.content }}
+            </div>
+          </div>
+        </div>
+        <div class="row bg-{{ nodebg }}">
+          <div class="col-md-12" style="height:40px;"></div>
+        </div>
+      </div>
+    {% endfor %}
+
+
+    <div class="row bg-turquoise">
+      <div class="col-md-12" style="text-align:center; padding-top: 20px;
+      padding-bottom: 20px;">designed by Danny Krashen under the MIT
+      license</div>
+    </div>
+  </div>
+  </div><!--/main-->
+
+{% include analytics.html %}
+</body>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/site.js"></script>
+</html>

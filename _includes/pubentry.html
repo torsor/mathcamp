@@ -1,0 +1,12 @@
+{% capture m %}{{ include.m }}{% endcapture %}
+<div class="row" style="margin-top: 20px;">
+  <div class="col-md-12">
+    <b>{{ m.title }}</b>{% if m.with %}, with {{ m.with }}{% endif %}
+    {% if m.in %} <br /> {{ m.in }}, {% endif %}{% if m.pubinfo %} 
+      {{ m.pubinfo }}, {% endif %}<br />{% if m.MR %}<a
+    href="http://www.ams.org/mathscinet-getitem?mr={{ p.MR }}"
+    >MathSciNet (MR: {{ m.MR }})</a>, {% endif %}
+    {% if m.arxiv %} <a href="{{ m.arxiv }}">arXiv {{ m.arxiv }}</a>.
+    {%endif %}
+  </div>
+</div>

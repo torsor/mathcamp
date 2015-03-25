@@ -1,0 +1,120 @@
+---
+
+  topMargin: 100
+
+---
+
+/***********************************************************
+**  typography 
+***********************************************************/
+
+@font-face {font-family: 'exo'; src: url('fonts/Exo-Light.ttf');}
+@font-face {font-family: 'exobold'; src: url('fonts/Exo-Medium.ttf');}
+* { font-family: 'exo'; color: black;}
+
+/***********************************************************
+**  colors
+***********************************************************/
+
+
+$offwhite: #f2f9ff;
+$topey: #d0d7df;
+$dark: #333;
+$light-dark: #555;
+$lighter-dark: #666;
+$black: #111111;
+$white: #f8f8f8;
+$blue: #49a7e9;
+$green: #9bcf2f;
+$purple: #c869bf;
+$orange: #fab125;
+$turquoise: #0fbfcf;
+
+// nav bottons
+$nav_bg_color: $dark;
+
+.nav a {
+  background-color: $nav_bg_color;
+}
+
+.nav-pills > li > a,
+.nav-pills > li > a:focus {
+  color: #fff;
+  background-color: $dark;
+}
+
+.nav-pills > li > a:hover {
+  background-color: $lighter-dark;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: $light-dark;
+}
+
+div.danny-nav-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 10; 
+  opacity: .95;
+}
+
+
+// color assignments for page backgrounds and navigation borders
+@each $color, $code in 
+  (offwhite, $offwhite), (black, $black), (blue, $blue), (green, $green),
+  (purple, $purple), (orange, $orange),  (turquoise, $turquoise),
+  (topey, $topey), (dark, $dark), (light-dark, $light-dark), 
+  (lighter-dark, $lighter-dark)
+
+  {
+  .bg-#{$color} {background-color: #{$code};}
+  .bd-#{$color} {border-top: 4px solid #{$code};}
+}
+
+/***********************************************************
+** layout
+***********************************************************/
+
+div.news_area > .row {margin-bottom: 50px;}
+
+.nav a {
+  border-radius:0px !important;
+}
+div.danny-nav-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 10; 
+  opacity: .95;
+}
+
+/***********************************************************
+**  site title description and picture
+***********************************************************/
+
+img#portrait {
+	max-height: 150px; 
+}
+
+// footer pic
+
+img#actionpic {
+	max-height: 240px; 
+}
+
+
+
+/***********************************************************
+**  icons in footer
+***********************************************************/
+
+.github-icon-svg,
+.twitter-icon-svg,
+.soundcloud-icon-svg {
+  display: inline-block;
+  position: relative; width: 16px; height: 16px; top: 3px;
+}
+
+
