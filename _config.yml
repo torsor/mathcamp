@@ -1,12 +1,9 @@
 ---
 
-port: 4000
-host: 0.0.0.0
-safe: false
 
 ### if local is set, the site will use local versions of scripts such as
 ### bootstrap, jquery, etc. otherwise it will get them from a CDN
-local: true
+#local: true
 
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
