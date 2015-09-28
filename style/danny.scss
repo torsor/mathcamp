@@ -16,7 +16,6 @@
 **  colors
 ***********************************************************/
 
-
 $offwhite: #f2f9ff;
 $topey: #d0d7df;
 $dark: #333;
@@ -29,6 +28,15 @@ $green: #9bcf2f;
 $purple: #c869bf;
 $orange: #fab125;
 $turquoise: #0fbfcf;
+
+// accent colors
+
+$darktan: #313131;
+$darkpurple: #68195f;
+$darkblue: #049;
+$olivebrown: #441;
+
+
 
 // nav bottons
 $nav_bg_color: $dark;
@@ -63,16 +71,31 @@ div.danny-nav-container {
 
 
 // color assignments for page backgrounds and navigation borders
-@each $color, $code in 
-  (offwhite, $offwhite), (black, $black), (blue, $blue), (green, $green),
-  (purple, $purple), (orange, $orange),  (turquoise, $turquoise),
-  (topey, $topey), (dark, $dark), (light-dark, $light-dark), 
-  (lighter-dark, $lighter-dark)
-
+@each $color, $code, $accent in 
+  (offwhite, $offwhite, $green), 
+  (black, $black, $white), 
+  (blue, $blue, $darktan), 
+  (green, $green, $darkpurple),
+  (purple, $purple, $olivebrown), 
+  (orange, $orange, $darkblue),  
+  (turquoise, $turquoise, $green),
+  (topey, $topey, $green), 
+  (dark, $dark, $green), 
+  (light-dark, $light-dark, $green), 
+  (lighter-dark, $lighter-dark, $green)
   {
   .bg-#{$color} {background-color: #{$code};}
+  .bg-#{$color} a {color: #{$accent};}
   .bd-#{$color} {border-top: 4px solid #{$code};}
 }
+
+a:focus { text-decoration: underline; }
+
+
+
+
+
+
 
 /***********************************************************
 ** layout
