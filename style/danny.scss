@@ -72,17 +72,17 @@ div.danny-nav-container {
 
 // color assignments for page backgrounds and navigation borders
 @each $color, $code, $accent in 
-  (offwhite, $offwhite, $green), 
-  (black, $black, $white), 
-  (blue, $blue, $darktan), 
-  (green, $green, $darkpurple),
-  (purple, $purple, $olivebrown), 
-  (orange, $orange, $darkblue),  
-  (turquoise, $turquoise, $green),
-  (topey, $topey, $green), 
-  (dark, $dark, $green), 
-  (light-dark, $light-dark, $green), 
-  (lighter-dark, $lighter-dark, $green)
+  ("offwhite", $offwhite, $green), 
+  ("black", $black, $white), 
+  ("blue", $blue, $darktan), 
+  ("green", $green, $darkpurple),
+  ("purple", $purple, $olivebrown), 
+  ("orange", $orange, $darkblue),  
+  ("turquoise", $turquoise, $green),
+  ("topey", $topey, $green), 
+  ("dark", $dark, $green), 
+  ("light-dark", $light-dark, $green), 
+  ("lighter-dark", $lighter-dark, $green)
   {
   .bg-#{$color} {background-color: #{$code};}
   .bg-#{$color} a {color: #{$accent};}
