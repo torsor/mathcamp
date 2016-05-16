@@ -40,7 +40,7 @@ Whether or not you are interested in competition, math contest problems are a gr
 <br />
 <br />
 
-This will be an active group where most of the time will be spent grappling with problems, with help, hints, and coaching.  Students must have completed an algebra course.
+This will be an active group where most of the time will be spent grappling with problems, with help, hints, and coaching. The activities are aimed particularly at rising 9th and 10th graders. Students must have completed an algebra course.
 </blockquote>
 
 ---
