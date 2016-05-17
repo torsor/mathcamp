@@ -13,7 +13,7 @@ active: true
 
 <br />
 
-This year's program will feature activity groups led by [Juanita Pinzón Caicedo](http://alpha.math.uga.edu/~juanita/), [Ester Dalvit](http://www.math.toronto.edu/dalvit/), [Juan Gutierrez](http://euler.math.uga.edu/lab/html/index_en.html), [Paul Pollack](http://alpha.math.uga.edu/~pollack/), Barbara Remmers and Amber Russell. Some of the group descriptions are available below:
+This year's program will feature activity groups led by [Ester Dalvit](http://www.math.toronto.edu/dalvit/), [Juan Gutierrez](http://euler.math.uga.edu/lab/html/index_en.html), [Juanita Pinzón-Caicedo](http://alpha.math.uga.edu/~juanita/), [Paul Pollack](http://alpha.math.uga.edu/~pollack/), Barbara Remmers and Amber Russell. Group descriptions are available below:
 
 <br />
 
@@ -40,6 +40,17 @@ Through hands-on activities and guided learning, students will develop mathemati
 
 <blockquote>
 In this workshop we will produce mathematical models to predict the outcome of an encounter between a healthy human population (for example, the town of Watkinsville) and a few mythical creatures. We will study: (a) humans vs. one zombie, (b) humans vs. one vampire, and (c) humans vs. a competition between several vampires and several werewolves… and any other apocalyptic scenario participants can come up with. Not only students will learn how to predict who wins, but also what are the best strategies to contain these mythical monsters. The mathematical tools used in this workshop belong to the same family of models used to guide public health policies against a number of diseases. We will use Scilab, an open source mathematical package, to explore the mathematical models needed in the study of  monster epidemiology.
+</blockquote>
+
+<br />
+
+---
+
+**Symmetries of two-dimensional repetitive patterns**
+([Juanita Pinzón-Caicedo](http://alpha.math.uga.edu/~juanita/))
+
+<blockquote>
+The two-dimensional plane can be with repetitions of some shapes without gaps or overlaps to create mosaic-like patterns. Artists like MC Escher have studied the symmetries of this patterns to create stunning works of art. We will explore the mathematics behind this patterns and we will create our own beautiful designs!
 </blockquote>
 
 <br />
