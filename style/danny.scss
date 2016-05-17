@@ -149,3 +149,16 @@ img#actionpic {
 blockquote {
   font-size: .9em;  
 }
+
+table,th, td  {
+  border: 1px solid black;
+}
+
+th, td  {
+  padding: 5px;
+}
+
+table  {
+  border-collapse: collapse;
+  width: 100%;
+}
