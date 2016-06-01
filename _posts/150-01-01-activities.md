@@ -13,7 +13,12 @@ active: true
 
 <br />
 
-This year's program will feature activity groups led by [Ester Dalvit](http://www.math.toronto.edu/dalvit/), [Juan Gutierrez](http://euler.math.uga.edu/lab/html/index_en.html), [Juanita Pinzón-Caicedo](http://alpha.math.uga.edu/~juanita/), [Paul Pollack](http://alpha.math.uga.edu/~pollack/), Barbara Remmers and Amber Russell. Group descriptions are available below:
+This year's program will feature activity groups led by [Ester
+Dalvit](http://www.math.toronto.edu/dalvit/), [Juan
+Gutierrez](http://euler.math.uga.edu/lab/html/index_en.html), [Juanita
+Pinzón-Caicedo](http://alpha.math.uga.edu/~juanita/), [Paul
+Pollack](http://alpha.math.uga.edu/~pollack/) and Amber
+Russell. Group descriptions are available below:
 
 <br />
 
@@ -68,21 +73,6 @@ We will explore several solved and unsolved problems about the set of prime numb
 <br />
 
 ---
-
-**Problem Solvers** 
-(Barbara Remmers)
-
-<blockquote>
-Whether or not you are interested in competition, math contest problems are a great tool to improve problem solving abilities.  The problems are interesting -- many are written by mathematicians to illustrate important ideas -- and satisfying to solve.   They start off easy and end with very hard ones so each contest has something for everyone.
-
-<br />
-<br />
-
-This will be an active group where most of the time will be spent grappling with problems, with help, hints, and coaching. The activities are aimed particularly at rising 9th and 10th graders. Students must have completed an algebra course.
-</blockquote>
-
----
-
 
 
 **Discovering Graph Theory** 
