@@ -5,7 +5,7 @@
 ---
 
 /***********************************************************
-**  typography 
+**  typography
 ***********************************************************/
 
 @font-face {font-family: 'exo'; src: url('fonts/Exo-Light.ttf');}
@@ -65,23 +65,29 @@ $nav_bg_color: $dark;
 div.danny-nav-container {
   padding-top: 10px;
   padding-bottom: 10px;
-  z-index: 10; 
+  z-index: 10;
   opacity: .95;
 }
 
+p.description {
+    font-size: 1.3em;
+    line-height: 2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 // color assignments for page backgrounds and navigation borders
-@each $color, $code, $accent in 
-  ("offwhite", $offwhite, $green), 
-  ("black", $black, $white), 
-  ("blue", $blue, $darktan), 
+@each $color, $code, $accent in
+  ("offwhite", $offwhite, $green),
+  ("black", $black, $white),
+  ("blue", $blue, $darktan),
   ("green", $green, $darkpurple),
-  ("purple", $purple, $olivebrown), 
-  ("orange", $orange, $darkblue),  
+  ("purple", $purple, $olivebrown),
+  ("orange", $orange, $darkblue),
   ("turquoise", $turquoise, #062),
-  ("topey", $topey, $green), 
-  ("dark", $dark, $green), 
-  ("light-dark", $light-dark, $green), 
+  ("topey", $topey, $green),
+  ("dark", $dark, $green),
+  ("light-dark", $light-dark, $green),
   ("lighter-dark", $lighter-dark, $green)
   {
   .bg-#{$color} {background-color: #{$code};}
@@ -115,7 +121,7 @@ div.news_area > .row {margin-bottom: 50px;}
 div.danny-nav-container {
   padding-top: 10px;
   padding-bottom: 10px;
-  z-index: 10; 
+  z-index: 10;
   opacity: .95;
 }
 
@@ -124,13 +130,13 @@ div.danny-nav-container {
 ***********************************************************/
 
 img#portrait {
-	max-height: 150px; 
+	max-height: 150px;
 }
 
 // footer pic
 
 img#actionpic {
-	max-height: 240px; 
+	max-height: 240px;
 }
 
 
@@ -147,7 +153,7 @@ img#actionpic {
 }
 
 blockquote {
-  font-size: .9em;  
+  font-size: .9em;
 }
 
 table,th, td  {
