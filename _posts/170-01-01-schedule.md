@@ -1,15 +1,15 @@
 ---
 
 categories: node 
-title: "Schedule"
-bg: purple
-topbg: purple
+title: "Schedule 2018"
+bg: turquoise
+topbg: turquoise
 style: center
 active: true
 
 ---
 
-<h2> Schedule and Daily Logistics </h2>
+<h2> Schedule and Daily Logistics 2018 </h2>
 
 All rooms listed below are located in the Boyd Graduate Studies Building on UGA Campus. Snacks will be provided in the Matrix (Room 308). Participants should either bring their own packed lunch (there is a refrigerator available), or sandwiches can be ordered from Jimmy Johns for delivery (students should bring cash for this). We will take orders for the group each morning.
 
@@ -27,13 +27,13 @@ All rooms listed below are located in the Boyd Graduate Studies Building on UGA 
 </tr>
 
 <tr>
-<td>9:30am-9:45am</td>
+<td>9:30am-9:40am</td>
 <td>Introductions</td>
 <td>Matrix (Room 308)</td>
 </tr>
 
 <tr>
-<td>9:45am-10:30am</td>
+<td>9:40am-10:15am</td>
 <td>Lecture, all groups together</td><td>Room 328</td>
 </tr>
 
